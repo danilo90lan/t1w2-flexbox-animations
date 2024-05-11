@@ -1,5 +1,6 @@
 * {
     --blue-light: #AEC5EB;
+    --orange: orange;
     color: black;
 }
 
@@ -7,9 +8,49 @@ body {
     background-color: var(--blue-light);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    justify-content: baseline;
     flex-direction: column;
     /* text align is orizontal */
     text-align: center;
     /* align items is vertical */
     align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    /* text align is orizontal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.logo p {
+    background-color: black;
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: black;
+    color: var(--blue-light);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
