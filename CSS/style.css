@@ -8,7 +8,7 @@ body {
     background-color: var(--blue-light);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     flex-direction: column;
     /* text align is orizontal */
     text-align: center;
@@ -53,4 +53,22 @@ nav a {
     padding: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    border-radius: 25%;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.training-option {
+    margin-top: 4dvw;
+    background-color: var(--orange);
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.training-option img{
+    width: 300px;
+    border-radius: 10%;
 }
