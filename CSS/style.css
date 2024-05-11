@@ -66,9 +66,24 @@ nav a:hover {
     background-color: var(--orange);
     padding: 1rem;
     border-radius: 5%;
+
 }
 
 .training-option img{
     width: 300px;
     border-radius: 10%;
+}
+
+h1:hover {
+    animation-name: spin;
+    animation-duration: 5s;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
