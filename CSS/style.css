@@ -65,18 +65,38 @@ nav a:hover {
     margin-top: 4dvw;
     background-color: var(--orange);
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 10%;
 
 }
 
 .training-option img{
-    width: 300px;
+    width: 75dvw;
     border-radius: 10%;
 }
 
 h1:hover {
     animation-name: spin;
     animation-duration: 5s;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .training-option {
+        margin-top: 5dvw;
+    }
+    .training-option img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
 }
 
 @keyframes spin {
