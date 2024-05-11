@@ -8,3 +8,6 @@
     -Flexbox
     -Animation
     -Pseudoclasses
+
+## Wireframes
+![Wireframes of index page Desktop version](./images/index_desktop.png)
